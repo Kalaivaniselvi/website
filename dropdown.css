@@ -1,0 +1,143 @@
+#flex{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 110px;
+    padding: 5px;
+
+}
+#flex1{
+    text-align: center;
+    justify-content: space-between;
+    display :flex;
+    height: 100px; 
+    width: 1600px;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-style: italic;
+    display-flex: inline;
+}
+#flex2{
+    display: none ;
+}
+#flex9:hover #flex2{
+    display: block;
+    background-color:white;
+}
+#flex4{
+    display: none ;
+}
+#flex3:hover #flex4{
+    display: block;
+    background-color:white;
+}
+#flex6{
+    display: none ;
+}
+#flex5:hover #flex6{
+    display: block;
+    background-color:white;
+}
+#flex8{
+    display: none ;
+}
+#flex7:hover #flex8{
+    display: block;
+    background-color:white;
+}
+#row2{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+
+
+#image{
+background-image:url(./image21.jpeg) ;
+height: 500px; 
+width: 100%;
+position: relative;
+z-index: -5;}
+#image4 img{ 
+    margin-left: 25px;
+    height:500px;
+    width:430px;
+    border-radius: 9px;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: 1500;
+}
+#feature{
+    background-color: lightseagreen;
+    height:300px;
+    width: 100%;
+    border-radius: 60px;
+}
+#feature h1{
+    margin-right: 200px;
+}
+
+#shop img{
+    margin-left: 25px;
+    height:350px;
+    width:275px;
+    border-radius: 9px;
+}
+#collection img{margin-left: 25px;
+    height:400px;
+    width:405px;
+    border-radius: 9px;
+padding: 15px;}
+
+#y{
+    background-color: aquamarine;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    text-align: center ;
+    flex-direction:column;
+} 
+#row2 p{
+    font-style: italic;
+    font-size: larger;
+}
+#fotter2{
+    background-color:aquamarine;
+    display: flex;
+    height: 800px;
+    width: 100%;
+    text-align: center ;
+    flex-direction:column;
+
+}
+
+#y1 {
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: -1000px;
+    margin-top: 120px;
+}
+#y2 {
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top:-300px;
+
+}
+#y3 {
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 1000px;
+    margin-top:-300px ;
+}
+#f1{margin-right: 1200px;}
+#f2{margin-top: -350px;}
+#f3{margin-top: -400px;
+    margin-left:1000px}
